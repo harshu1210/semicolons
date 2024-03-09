@@ -1,0 +1,943 @@
+NOT DONE LOOP
+----- Citation 38399524_ -----
+38399524_.tx.1 PMID: 38399524_ Next-Generation Sequencing in Lung Cancers-A Single-Center Experience in Taiwan.
+
+
+38399524_.tx.2 Background and Objectives: Lung cancer is a leading cause of cancer mortality in Taiwan.
+
+
+38399524_.tx.3 With rapid advancement of targeted therapeutics in non-small cell lung cancers, next-generation sequencing (NGS) is becoming an important tool for biomarker testing.
+
+38399524_.tx.3|relation|C0599894|targeting|celf|celf|||PROCESS_OF|C0007131|Carcinoma, Non-Small-Cell Lung|neop|neop||
+
+38399524_.tx.4 In this study, we describe institutional experience of NGS analysis in non-small cell carcinoma (NSCLC).
+
+
+38399524_.tx.5 Materials and Methods: A cohort of 73 cases was identified from the institutional pathology archive in the period between November 2020 and December 2022.
+
+
+38399524_.tx.6 Results: Adenocarcinoma was the most common histologic type (91.8%).
+
+
+38399524_.tx.7 Most patients presented with stage IIIB and beyond (87.7%).
+
+
+38399524_.tx.8 Twenty-nine patients (39.7%) were evaluated at the time of initial diagnosis, while the others had received prior chemotherapy or targeted therapy.
+
+
+38399524_.tx.9 The most frequently mutated gene was EGFR (63%), and this was followed by TP53 (50.7%), KRAS (13.7%), RB1 (13.7%), and CDKN2A (13.7%).
+
+
+38399524_.tx.10 Clinically actionable mutations associated with a guideline-suggested targeted therapy were identified in 55 cases (75.3%) overall, and in 47.1% of cases excluding EGFR TKI-sensitizing mutation.
+
+
+38399524_.tx.11 Biomarkers other than EGFR TKI-sensitizing mutations were compared.
+
+
+38399524_.tx.12 Cases without TKI-sensitizing EGFR mutation had more level 1 or 2 biomarkers (excluding EGFR TKI-sensitizing mutations) than cases with TKI-sensitizing EGFR mutations (47.1% versus 20.1%, p = 0.016).
+
+
+38399524_.tx.13 Progressive disease was associated with co-occurrence of clinically actionable mutations (20.5% versus 0%, p < 0.05).
+
+
+38399524_.tx.14 Eight of the nine cases with co-occurring actionable genetic alternations had an EGFR mutation.
+
+
+38399524_.tx.15 After an NGS test, 46.1% of actionable or potentially actionable genetic alternations led to patients receiving a matched therapy.
+
+
+38399524_.tx.16 Conclusions: Our study demonstrated that NGS analysis identifies therapeutic targets and may guide treatment strategies in NSCLC.
+
+
+38399524_.tx.17 NGS tests may be advantageous over multiple single-gene tests for optimization of treatment plans, especially for those with non-EGFR mutations or those with progressive disease.
+
+
+
+----- Citation 38398394_ -----
+38398394_.tx.1 PMID: 38398394_ Unmet Horizons: Assessing the Challenges in the Treatment of TP53-Mutated Acute Myeloid Leukemia.
+
+
+38398394_.tx.2 Acute myeloid leukemia (AML) remains a challenging hematologic malignancy.
+
+38398394_.tx.2|relation|C0023467|Leukemia, Myelocytic, Acute|neop|neop|||ISA|C0376545|Hematologic Neoplasms|neop|neop||
+
+38398394_.tx.3 The presence of TP53 mutations in AML poses a therapeutic challenge, considering that standard treatments face significant setbacks in achieving meaningful responses.
+
+38398394_.tx.3|relation|C0079419|TP53 gene|gngm,aapp|gngm|7157|TP53|ASSOCIATED_WITH|C0023467|Leukemia, Myelocytic, Acute|neop|neop||
+
+38398394_.tx.4 There is a pressing need for the development of innovative treatment modalities to overcome resistance to conventional treatments attributable to the unique biology of TP53-mutated (TP53mut) AML.
+
+38398394_.tx.4|relation|C0087111|Therapeutic procedure|topp|topp|||NEG_AFFECTS|C0023467|Leukemia, Myelocytic, Acute|neop|neop||
+
+38398394_.tx.5 This review underscores the role of TP53 mutations in AML, examines the current landscape of treatment options, and highlights novel therapeutic approaches, including targeted therapies, combination regimens, and emerging immunotherapies, as well as agents being explored in preclinical studies according to their potential to address the unique hurdles posed by TP53mut AML.
+
+38398394_.tx.5|relation|C0079419|TP53 gene|gngm,aapp|gngm|7157|TP53|ASSOCIATED_WITH|C0023467|Leukemia, Myelocytic, Acute|neop|neop||
+
+
+----- Citation 38398207_ -----
+38398207_.tx.1 PMID: 38398207_ Relationship between the Expression of CHK2 and p53 in Tumor Tissue and the Course of Papillary Thyroid Cancer in Patients with CHEK2 Germline Mutations.
+
+38398207_.tx.1|relation|C0238463|Papillary thyroid carcinoma|neop|neop|||PROCESS_OF|C0030705|Patients|podg,humn|humn||
+38398207_.tx.1|relation|C0475358|Tumor tissue sample|bpoc|bpoc|||LOCATION_OF|C0079419|TP53 gene|gngm,aapp|aapp|7157|TP53
+38398207_.tx.1|relation|C0475358|Tumor tissue sample|bpoc|bpoc|||LOCATION_OF|C1259236|CHEK2 protein, human|aapp,gngm,enzy|gngm|11200|CHEK2
+38398207_.tx.1|relation|C1424448|CHEK2 gene|gngm,aapp|gngm|11200|CHEK2|ASSOCIATED_WITH(INFER)|C0238463|Papillary thyroid carcinoma|neop|neop||
+38398207_.tx.1|relation|C1424448|CHEK2 gene|gngm,aapp|gngm|11200|CHEK2|PART_OF|C0030705|Patients|podg,humn|humn||
+
+38398207_.tx.2 The aim of this study was to determine whether the expression of CHK2 and p53 in tumor tissue in carriers of germline CHEK2 mutations can serve as a prognostic marker for PTC, and whether CHEK2 and TP53 copy numbers correlates with the course of PTC disease.
+
+38398207_.tx.2|relation|C0206530|Germ-Line Mutation|genf|genf|||PROCESS_OF|C1424448|CHEK2 gene|gngm,aapp|gngm|11200|CHEK2
+38398207_.tx.2|relation|C0475358|Tumor tissue sample|bpoc|bpoc|||LOCATION_OF|C0079419|TP53 gene|gngm,aapp|aapp|7157|TP53
+38398207_.tx.2|relation|C0475358|Tumor tissue sample|bpoc|bpoc|||LOCATION_OF|C1259236|CHEK2 protein, human|aapp,gngm,enzy|gngm|11200|CHEK2
+
+38398207_.tx.3 This study included 156 PTC patients previously tested for the presence of CHEK2.
+
+
+38398207_.tx.4 Clinicopathological features, treatment response, disease outcome, and germline mutation status of the CHEK2 gene were assessed with respect to CHK2 and p53 expression, and CHEK2 and TP53 gene copy statuses.
+
+38398207_.tx.4|relation|C1424448|CHEK2 gene|gngm,aapp|gngm|11200|CHEK2|LOCATION_OF|C0206530|Germ-Line Mutation|genf|genf||
+
+38398207_.tx.5 In patients with and without a germline mutation in CHEK2 and with higher CHK2 expression, the chances of an excellent treatment response and no evidence of disease were lower than in patients without or with lower CHK2 expression.
+
+38398207_.tx.5|relation|C0012634|Disease|dsyn|dsyn|||PROCESS_OF|C0030705|Patients|podg,humn|humn||
+38398207_.tx.5|relation|C0206530|Germ-Line Mutation|genf|genf|||PROCESS_OF|C1259236|CHEK2 protein, human|aapp,gngm,enzy|gngm|11200|CHEK2
+38398207_.tx.5|relation|C0206530|Germ-Line Mutation|genf|genf|||PROCESS_OF|C1424448|CHEK2 gene|gngm,aapp|gngm|11200|CHEK2
+
+38398207_.tx.6 TP53 deletion was associated with angioinvasion.
+
+
+38398207_.tx.7 In patients with a truncating mutation, the chance of a CHEK2 deletion was higher than in patients with WT CHEK2 alone or those with WT CHEK2 and with the missense I157T mutation.
+
+38398207_.tx.7|relation|C0030705|Patients|podg,humn|humn|||LOCATION_OF|C1424448|CHEK2 gene|gngm,aapp|aapp|11200|CHEK2
+38398207_.tx.7|relation|C1424448|CHEK2 gene|gngm,aapp|gngm|11200|CHEK2|PART_OF|C0030705|Patients|podg,humn|humn||
+
+38398207_.tx.8 Higher CHK2 expression was associated with poorer treatment responses and disease outcomes.
+
+
+38398207_.tx.9 Higher CHK2 expression and positive p53 together with a TP53 deletion could be a prognostic marker of unfavorable disease outcomes in patients with germline truncating mutations in CHEK2.
+
+38398207_.tx.9|relation|C0206530|Germ-Line Mutation|genf|genf|||PROCESS_OF|C1424448|CHEK2 gene|gngm,aapp|gngm|11200|CHEK2
+38398207_.tx.9|relation|C0679250|Disease Outcome|fndg|fndg|||PROCESS_OF|C0030705|Patients|podg,humn|humn||
+
+
+----- Citation 38398199_ -----
+38398199_.tx.1 PMID: 38398199_ Tissue-Based Diagnostic Biomarkers of Aggressive Variant Prostate Cancer: A Narrative Review.
+
+
+38398199_.tx.2 Prostate cancer (PC) is a common malignancy among elderly men, characterized by great heterogeneity in its clinical course, ranging from an indolent to a highly aggressive disease.
+
+38398199_.tx.2|relation|C0006826|Malignant Neoplasms|neop|neop|||PROCESS_OF|C0025266|Male population group|popg,humn|humn||
+38398199_.tx.2|relation|C0376358|Malignant neoplasm of prostate|neop|neop|||ISA|C0006826|Malignant Neoplasms|neop|neop||
+38398199_.tx.2|relation|C0376358|Malignant neoplasm of prostate|neop|neop|||PROCESS_OF(SPEC)|C0025266|Male population group|popg,humn|humn||
+
+38398199_.tx.3 The aggressive variant of prostate cancer (AVPC) clinically shows an atypical pattern of disease progression, similar to that of small cell PC (SCPC), and also shares the chemo-responsiveness of SCPC.
+
+38398199_.tx.3|relation|C0033572|Prostate|bpoc|bpoc|||LOCATION_OF|C0262584|Oat cell carcinoma|neop|neop||
+
+38398199_.tx.4 The term AVPC does not describe a specific histologic subtype of PC but rather the group of tumors that, irrespective of morphology, show an aggressive clinical course, dictated by androgen receptor (AR) indifference.
+
+
+38398199_.tx.5 AR indifference represents an adaptive response to androgen deprivation therapy (ADT), driven by epithelial plasticity, an inherent ability of tumor cells to adapt to their environment by changing their phenotypic characteristics in a bi-directional way.
+
+
+38398199_.tx.6 The molecular profile of AVPC entails combined alterations in the tumor suppressor genes retinoblastoma protein 1 (RB1), tumor protein 53 (TP53), and phosphatase and tensin homolog (PTEN).
+
+
+38398199_.tx.7 The understanding of the biologic heterogeneity of castration-resistant PC (CRPC) and the need to identify the subset of patients that would potentially benefit from specific therapies necessitate the development of prognostic and predictive biomarkers.
+
+38398199_.tx.7|relation|C0087111|Therapeutic procedure|topp|topp|||TREATS|C0030705|Patients|podg,humn|podg||
+
+38398199_.tx.8 This review aims to discuss the possible pathophysiologic mechanisms of AVPC development and the potential use of emerging tissue-based biomarkers in clinical practice.
+
+
+
+----- Citation 38398114_ -----
+38398114_.tx.1 PMID: 38398114_ A Potential Prognostic Gene Signature Associated with p53-Dependent NTRK1 Activation and Increased Survival of Neuroblastoma Patients.
+
+38398114_.tx.1|relation|C0027819|Neuroblastoma|neop|neop|||PROCESS_OF|C0030705|Patients|podg,humn|humn||
+38398114_.tx.1|relation|C0079419|TP53 gene|gngm,aapp|gngm|7157|TP53|STIMULATES|C0072482|Neurotrophic Tyrosine Kinase Receptor Type 1|aapp,gngm,enzy,rcpt|gngm|4914|NTRK1
+
+38398114_.tx.2 Neuroblastoma is the most common extracranial solid tumour in children, comprising close to 10% of childhood cancer-related deaths.
+
+38398114_.tx.2|relation|C1333132|Common Neoplasm|neop|neop|||PROCESS_OF|C0008059|Child|aggp,humn,inpr|humn||
+
+38398114_.tx.3 We have demonstrated that activation of NTRK1 by TP53 repression of PTPN6 expression is significantly associated with favourable survival in neuroblastoma.
+
+38398114_.tx.3|relation|C0072482|Neurotrophic Tyrosine Kinase Receptor Type 1|aapp,gngm,enzy,rcpt|aapp|4914|NTRK1|ASSOCIATED_WITH|C0027819|Neuroblastoma|neop|neop||
+38398114_.tx.3|relation|C0079419|TP53 gene|gngm,aapp|gngm|7157|TP53|INHIBITS|C1335283|PTPN6 gene|gngm,aapp|gngm|5777|PTPN6
+
+38398114_.tx.4 The molecular mechanisms by which this activation elicits cell molecular changes need to be determined.
+
+
+38398114_.tx.5 This is critical to identify dependable biomarkers for the early detection and prognosis of tumours, and for the development of personalised treatment.
+
+
+38398114_.tx.6 In this investigation we have identified and validated a gene signature for the prognosis of neuroblastoma using genes differentially expressed upon activation of the NTRK1-PTPN6-TP53 module.
+
+
+38398114_.tx.7 A random survival forest model was used to construct a gene signature, which was then assessed across validation datasets using Kaplan-Meier analysis and ROC curves.
+
+
+38398114_.tx.8 The analysis demonstrated that high BASP1, CD9, DLG2, FNBP1, FRMD3, IL11RA, ISGF10, IQCE, KCNQ3, and TOX2, and low BSG/CD147, CCDC125, GABRB3, GNB2L1/RACK1 HAPLN4, HEBP2, and HSD17B12 expression was significantly associated with favourable patient event-free survival (EFS).
+
+
+38398114_.tx.9 The gene signature was associated with favourable tumour histology and NTRK1-PTPN6-TP53 module activation.
+
+
+38398114_.tx.10 Importantly, all genes were significantly associated with favourable EFS in an independent manner.
+
+
+38398114_.tx.11 Six of the signature genes, BSG/CD147, GNB2L1/RACK1, TXNDC5, FNPB1, B3GAT1, and IGSF10, play a role in cell differentiation.
+
+
+38398114_.tx.12 Our findings strongly suggest that the identified gene signature is a potential prognostic biomarker and therapeutic target for neuroblastoma patients and that it is associated with neuroblastoma cell differentiation through the activation of the NTRK1-PTPN6-TP53 module.
+
+38398114_.tx.12|relation|C0027819|Neuroblastoma|neop|neop|||PROCESS_OF|C0030705|Patients|podg,humn|humn||
+
+
+----- Citation 38397106_ -----
+38397106_.tx.1 PMID: 38397106_ TIGAR Deficiency Blunts Angiotensin-II-Induced Cardiac Hypertrophy in Mice.
+
+38397106_.tx.1|relation|C0003009|Angiotensin II|aapp,gngm,bacs,phsu|aapp|||CAUSES|C1383860|Cardiac Hypertrophy|patf|patf||
+38397106_.tx.1|relation|C1383860|Cardiac Hypertrophy|patf|patf|||PROCESS_OF|C0026809|Mus|mamm|mamm||
+
+38397106_.tx.2 Hypertension is the key contributor to pathological cardiac hypertrophy.
+
+
+38397106_.tx.3 Growing evidence indicates that glucose metabolism plays an essential role in cardiac hypertrophy.
+
+
+38397106_.tx.4 TP53-induced glycolysis and apoptosis regulator (TIGAR) has been shown to regulate glucose metabolism in pressure overload-induced cardiac remodeling.
+
+38397106_.tx.4|relation|C0079419|TP53 gene|gngm,aapp|gngm|7157|TP53|STIMULATES|C1332325|Apoptosis Regulator|aapp,gngm,bacs|gngm||
+
+38397106_.tx.5 In the present study, we investigated the role of TIGAR in cardiac remodeling during Angiotensin II (Ang-II)-induced hypertension.
+
+38397106_.tx.5|relation|C0003009|Angiotensin II|aapp,gngm,bacs,phsu|aapp|||CAUSES|C0020538|Hypertensive disease|dsyn|dsyn||
+
+38397106_.tx.6 Wild-type (WT) and TIGAR knockout (KO) mice were infused with Angiotensin-II (Ang-II, 1 ÃÂµg/kg/min) via mini-pump for four weeks.
+
+38397106_.tx.6|relation|C0003009|Angiotensin II|aapp,gngm,bacs,phsu|bacs|||ADMINISTERED_TO|C0206745|Mice, Knockout|mamm|mamm||
+
+38397106_.tx.7 The blood pressure was similar between the WT and TIGAR KO mice.
+
+
+38397106_.tx.8 The Ang-II infusion resulted in a similar reduction of systolic function in both groups, as evidenced by the comparable decrease in LV ejection fraction and fractional shortening.
+
+38397106_.tx.8|relation|C0003009|Angiotensin II|aapp,gngm,bacs,phsu|phsu|||INHIBITS|C0489482|Ejection fraction|fndg|fndg||
+
+38397106_.tx.9 The Ang-II infusion also increased the isovolumic relaxation time and myocardial performance index to the same extent in WT and TIGAR KO mice, suggesting the development of similar diastolic dysfunction.
+
+
+38397106_.tx.10 However, the knockout of TIGAR significantly attenuated hypertension-induced cardiac hypertrophy.
+
+38397106_.tx.10|relation|C0079419|TP53 gene|gngm,aapp|gngm|7157|TP53|CAUSES|C1383860|Cardiac Hypertrophy|patf|patf||
+
+38397106_.tx.11 This was associated with higher levels of fructose 2,6-bisphosphate, PFK-1, and Glut-4 in the TIGAR KO mice.
+
+38397106_.tx.11|relation|C0206745|Mice, Knockout|mamm|mamm|||LOCATION_OF|||gngm,aapp|aapp|5213|PFKM
+38397106_.tx.11|relation|C0206745|Mice, Knockout|mamm|mamm|||LOCATION_OF|C1335837|SLC2A1 gene|gngm,aapp|gngm|6513|SLC2A1
+
+38397106_.tx.12 Our present study suggests that TIGAR is involved in the control of glucose metabolism and glucose transporters by Ang-II and that knockout of TIGAR attenuates the development of maladaptive cardiac hypertrophy.
+
+38397106_.tx.12|relation|C0003009|Angiotensin II|aapp,gngm,bacs,phsu|phsu|||TREATS|C1383860|Cardiac Hypertrophy|patf|patf||
+38397106_.tx.12|relation|C1332325|Apoptosis Regulator|aapp,gngm,bacs|aapp|||AFFECTS|C0596620|glucose metabolism|moft|moft||
+
+
+----- Citation 38396800_ -----
+38396800_.tx.1 PMID: 38396800_ Developing Folate-Conjugated miR-34a Therapeutic for Prostate Cancer: Challenges and Promises.
+
+
+38396800_.tx.2 Prostate cancer (PCa) remains a common cancer with high mortality in men due to its heterogeneity and the emergence of drug resistance.
+
+38396800_.tx.2|relation|C0006826|Malignant Neoplasms|neop|neop|||PROCESS_OF|C0025266|Male population group|popg,humn|humn||
+38396800_.tx.2|relation|C0376358|Malignant neoplasm of prostate|neop|neop|||ISA|C0006826|Malignant Neoplasms|neop|neop||
+38396800_.tx.2|relation|C0376358|Malignant neoplasm of prostate|neop|neop|||PROCESS_OF(SPEC)|C0025266|Male population group|popg,humn|humn||
+
+38396800_.tx.3 A critical factor contributing to its lethality is the presence of prostate cancer stem cells (PCSCs), which can self-renew, long-term propagate tumors, and mediate treatment resistance.
+
+
+38396800_.tx.4 MicroRNA-34a (miR-34a) has shown promise as an anti-PCSC therapeutic by targeting critical molecules involved in cancer stem cell (CSC) survival and functions.
+
+38396800_.tx.4|relation|C1537745|MIRN34A gene|gngm,aapp|gngm|407040|MIR34A|INTERACTS_WITH|C0334227|Tumor cells, malignant|cell|cell||
+
+38396800_.tx.5 Despite extensive efforts, the development of miR-34a therapeutics still faces challenges, including non-specific delivery and delivery-associated toxicity.
+
+
+38396800_.tx.6 One emerging delivery approach is ligand-mediated conjugation, aiming to achieve specific delivery of miR-34a to cancer cells, thereby enhancing efficacy while minimizing toxicity.
+
+38396800_.tx.6|relation|C0023688|Ligands|chem|chem|||AFFECTS|C1160466|conjugation|celf|celf||
+
+38396800_.tx.7 Folate-conjugated miR-34a (folate-miR-34a) has demonstrated promising anti-tumor efficacy in breast and lung cancers by targeting folate receptor ÃÂ± (FOLR1).
+
+38396800_.tx.7|relation|C0006141|Breast|bpoc|bpoc|||LOCATION_OF|C0027651|Neoplasm|neop|neop||
+38396800_.tx.7|relation|C1537745|MIRN34A gene|gngm,aapp|gngm|407040|MIR34A|INHIBITS|C0060615|folate-binding protein|aapp,gngm,rcpt|gngm||
+
+38396800_.tx.8 Here, we first show that miR-34a, a TP53 transcriptional target, is reduced in PCa that harbors TP53 loss or mutations and that miR-34a mimic, when transfected into PCa cells, downregulated multiple miR-34a targets and inhibited cell growth.
+
+38396800_.tx.8|relation|||gngm,aapp|gngm|28982|FLVCR1|INHIBITS|C1537745|MIRN34A gene|gngm,aapp|gngm|407040|MIR34A
+38396800_.tx.8|relation|C0079419|TP53 gene|gngm,aapp|gngm|7157|TP53|INTERACTS_WITH|C1537745|MIRN34A gene|gngm,aapp|gngm|407040|MIR34A
+38396800_.tx.8|relation|C1537745|MIRN34A gene|gngm,aapp|aapp|407040|MIR34A|ADMINISTERED_TO|C0007634|Cells|cell|cell||
+
+38396800_.tx.9 When exploring the therapeutic potential of folate-miR-34a, we found that folate-miR-34a exhibited impressive inhibitory effects on breast, ovarian, and cervical cancer cells but showed minimal effects on and targeted delivery to PCa cells due to a lack of appreciable expression of FOLR1 in PCa cells.
+
+38396800_.tx.9|relation|C0006141|Breast|bpoc|bpoc|||LOCATION_OF|C1537745|MIRN34A gene|gngm,aapp|aapp|407040|MIR34A
+38396800_.tx.9|relation|C0007634|Cells|cell|cell|||LOCATION_OF|C1537745|MIRN34A gene|gngm,aapp|aapp|407040|MIR34A
+38396800_.tx.9|relation|C0205065|Ovaro-|bpoc|bpoc|||LOCATION_OF|C1537745|MIRN34A gene|gngm,aapp|aapp|407040|MIR34A
+38396800_.tx.9|relation|C1414662|FOLR1 gene|gngm,aapp|gngm|2348|FOLR1|INTERACTS_WITH|C0007634|Cells|cell|cell||
+
+38396800_.tx.10 Folate-miR-34a also did not display any apparent effect on PCa cells expressing prostate-specific membrane antigen (PMSA) despite the reported folate's binding capability to PSMA.
+
+38396800_.tx.10|relation|C0007634|Cells|cell|cell|||LOCATION_OF|C1537745|MIRN34A gene|gngm,aapp|aapp|407040|MIR34A
+38396800_.tx.10|relation|C0007634|Cells|cell|cell|||PRODUCES|C0067685|Glutamate Carboxypeptidase II|aapp,gngm,enzy|aapp||
+
+38396800_.tx.11 These results highlight challenges in the specific delivery of folate-miR-34a to PCa due to a lack of target (receptor) expression.
+
+
+38396800_.tx.12 Our study offers novel insights into the challenges and promises within the field and casts light on the development of ligand-conjugated miR-34a therapeutics for PCa.
+
+
+
+----- Citation 38396367_ -----
+38396367_.tx.1 PMID: 38396367_ The association of genomic alterations with PD-L1 expression in Chinese patients with EGFR/ALK wild-type lung adenocarcinoma and potential predictive value of Hippo pathway mutations to immunotherapy.
+
+38396367_.tx.1|relation|C0001418|Adenocarcinoma|neop|neop|||PROCESS_OF|C0030705|Patients|podg,humn|humn||
+38396367_.tx.1|relation|C0024109|Lung|bpoc|bpoc|||LOCATION_OF|C0001418|Adenocarcinoma|neop|neop||
+38396367_.tx.1|relation|C0025344|Menstruation|orgf|orgf|||AFFECTS|C0030705|Patients|podg,humn|humn||
+
+38396367_.tx.2 The study focuses on PD-L1 expression as an essential biomarker for gauging the response of EGFR/ALK wild-type NSCLC patients to FDA-approved immune checkpoint inhibitors (ICIs).
+
+38396367_.tx.2|relation|C0007131|Carcinoma, Non-Small-Cell Lung|neop|neop|||PROCESS_OF|C0030705|Patients|podg,humn|humn||
+
+38396367_.tx.3 It aims to explore clinical, molecular, and immune microenvironment characteristics associated with PD-L1 expression in EGFR/ALK wild-type lung adenocarcinoma patients eligible for ICI therapy.In this retrospective study, tumor samples from 359 Chinese EGFR/ALK wild-type lung adenocarcinoma patients underwent comprehensive evaluations for PD-L1 expression and NGS-targeted sequencing.
+
+38396367_.tx.3|relation|C0001418|Adenocarcinoma|neop|neop|||PROCESS_OF|C0030705|Patients|podg,humn|humn||
+38396367_.tx.3|relation|C0001418|Adenocarcinoma|neop|neop|||PROCESS_OF|C0030705|Patients|podg,humn|humn||
+38396367_.tx.3|relation|C0027651|Neoplasm|neop|neop|||MANIFESTATION_OF|C0025344|Menstruation|orgf|orgf||
+38396367_.tx.3|relation|C0027651|Neoplasm|neop|neop|||MANIFESTATION_OF|C0025344|Menstruation|orgf|orgf||
+
+38396367_.tx.4 The investigation encompassed the analysis and comparison of clinical traits, gene mutations, pathways, and immune signatures between two groups categorized by PD-L1 status: negative (TPSÃ¢  <Ã¢  1%) and positive (TPSÃ¢  Ã¢ Â¥Ã¢  1%).
+
+
+38396367_.tx.5 Additionally, the study explored the link between genomic changes and outcomes following immunotherapy.
+
+
+38396367_.tx.6 High tumor mutational burden correlated significantly with PD-L1 positivity in patients with EGFR/ALK wild-type lung adenocarcinoma.
+
+38396367_.tx.6|relation|C0001418|Adenocarcinoma|neop|neop|||PROCESS_OF|C0030705|Patients|podg,humn|humn||
+38396367_.tx.6|relation|C0024109|Lung|bpoc|bpoc|||LOCATION_OF|C0001418|Adenocarcinoma|neop|neop||
+
+38396367_.tx.7 Gene alterations, including TP53, KRAS, and others, were more pronounced in the PD-L1 positive group.
+
+
+38396367_.tx.8 Pathway analysis highlighted higher frequencies of alterations in pathways like RTK/RAS, p53, and Hippo in PD-L1-positive patients.
+
+38396367_.tx.8|relation|C0030705|Patients|podg,humn|humn|||LOCATION_OF|C0079419|TP53 gene|gngm,aapp|aapp|7157|TP53
+
+38396367_.tx.9 The Hippo pathway's relevance was confirmed in separate immunotherapy cohorts, associated with better outcomes.
+
+
+38396367_.tx.10 In terms of immune cell infiltration, Hippo mutants exhibited higher levels of CD68+ PD-L1+ macrophages, CD8+ T cells, and CD8+ PD-1- T cells.
+
+
+38396367_.tx.11 This study offers insights into genomic features of Chinese EGFR/ALK wild-type lung adenocarcinoma patients based on PD-L1 expression.
+
+38396367_.tx.11|relation|C0001418|Adenocarcinoma|neop|neop|||PROCESS_OF|C0030705|Patients|podg,humn|humn||
+
+38396367_.tx.12 Notably, Hippo pathway alterations were linked to improved immunotherapy outcomes.
+
+
+38396367_.tx.13 These findings suggest connections between the Hippo pathway and PD-L1 expression, warranting further clinical and functional investigations.
+
+
+38396367_.tx.14 The research advances our understanding of PD-L1 expression's genomic context and immunotherapy response in EGFR/ALK wild-type lung adenocarcinoma.ÃÂ© 2024 The Authors.
+
+
+38396367_.tx.15 Cancer Medicine published by John Wiley & Sons Ltd.
+
+
+
+----- Citation 38395437_ -----
+38395437_.tx.1 PMID: 38395437_ HBV integrations reshaping genomic structures promote hepatocellular carcinoma.
+
+
+38395437_.tx.2 Hepatitis B virus (HBV)-related hepatocellular carcinoma (HCC), mostly characterised by HBV integrations, is prevalent worldwide.
+
+
+38395437_.tx.3 Previous HBV studies mainly focused on a few hotspot integrations.
+
+
+38395437_.tx.4 However, the oncogenic role of the other HBV integrations remains unclear.
+
+
+38395437_.tx.5 This study aimed to elucidate HBV integration-induced tumourigenesis further.
+
+
+38395437_.tx.6 Here, we illuminated the genomic structures encompassing HBV integrations in 124 HCCs across ages using whole genome sequencing and Nanopore long reads.
+
+
+38395437_.tx.7 We classified a repertoire of integration patterns featured by complex genomic rearrangement.
+
+
+38395437_.tx.8 We also conducted a clustered regularly interspaced short palindromic repeat (CRISPR)-based gain-of-function genetic screen in mouse hepatocytes.
+
+38395437_.tx.8|relation|C0227525|Hepatocyte|cell|cell|||PART_OF|C0025914|House mice|mamm|mamm||
+
+38395437_.tx.9 We individually activated each candidate gene in the mouse model to uncover HBV integration-mediated oncogenic aberration that elicits tumourigenesis in mice.
+
+38395437_.tx.9|relation|C1326912|Tumorigenesis|neop|neop|||PROCESS_OF|C0026809|Mus|mamm|mamm||
+38395437_.tx.9|relation|C1332838|Candidate Disease Gene|gngm,aapp|gngm|||AUGMENTS|C1326912|Tumorigenesis|neop|neop||
+
+38395437_.tx.10 These HBV-mediated rearrangements are significantly enriched in a bridge-fusion-bridge pattern and interchromosomal translocations, and frequently led to a wide range of aberrations including driver copy number variations in chr 4q, 5p (TERT), 6q, 8p, 16q, 9p (CDKN2A/B), 17p (TP53) and 13q (RB1), and particularly, ultra-early amplifications in chr8q.
+
+
+38395437_.tx.11 Integrated HBV frequently contains complex structures correlated with the translocation distance.
+
+
+38395437_.tx.12 Paired breakpoints within each integration event usually exhibit different microhomology, likely mediated by different DNA repair mechanisms.
+
+
+38395437_.tx.13 HBV-mediated rearrangements significantly correlated with young age, higher HBV DNA level and TP53 mutations but were less prevalent in the patients subjected to prior antiviral therapies.
+
+38395437_.tx.13|relation|C0030705|Patients|podg,humn|humn|||LOCATION_OF|C0079419|TP53 gene|gngm,aapp|aapp|7157|TP53
+
+38395437_.tx.14 Finally, we recapitulated the TONSL and TMEM65 amplification in chr8q led by HBV integration using CRISPR/Cas9 editing and demonstrated their tumourigenic potentials.HBV integrations extensively reshape genomic structures and promote hepatocarcinogenesis (graphical abstract), which may occur early in a patient's life.ÃÂ© Author(s) (or their employer(s)) 2024.
+
+
+38395437_.tx.15 Re-use permitted under CC BY-NC.
+
+
+38395437_.tx.16 No commercial re-use.
+
+
+38395437_.tx.17 See rights and permissions.
+
+
+38395437_.tx.18 Published by BMJ.
+
+
+
+----- Citation 38395179_ -----
+38395179_.tx.1 PMID: 38395179_ Network pharmacology and experimental validation to investigate the mechanism of Nao-Ling-Su capsule in the treatment of Ischemia/reperfusion-induced acute kidney injury.
+
+38395179_.tx.1|relation|C0022646|Kidney|bpoc|bpoc|||LOCATION_OF|C0035126|Reperfusion Injury|inpo|inpo||
+
+38395179_.tx.2 Nao-Ling-Su Capsule (NLSC) is a traditional prescription, which is composed of fifteen herbs such as epimedium, Polygala tenuifolia, and Schisandra chinensis.
+
+
+38395179_.tx.3 It has the effect of strengthening the brain, calming nerves, and protecting the kidney, which has been used clinically for many years to strengthen the brain and kidney.
+
+
+38395179_.tx.4 However, the effect of NLSC in the treatment of acute kidney injury (AKI) is still unclear.The present study aims to elucidate the pharmacological actions of NLSC in the treatment of AKI.
+
+
+38395179_.tx.5 Molecular targets for NLSC and AKI were obtained from various databases, and then we built networks of interactions between proteins (PPI) by employing string databases.
+
+38395179_.tx.5|relation|C1513403|Molecular Target|chvf,chvs|chvs|||INTERACTS_WITH|C0033684|Proteins|aapp,gngm,bacs|aapp||
+
+38395179_.tx.6 Additionally, we employed the DAVID database to conduct gene ontology (GO) enrichment and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment analyses.
+
+
+38395179_.tx.7 Molecular docking was conducted to analyze the interaction between core components and their corresponding core targets.
+
+
+38395179_.tx.8 Next, the C57BL male mice model of ischemia/reperfusion damage (IRI) was developed, and the nephridial protective effect of NLSC was evaluated.
+
+38395179_.tx.8|relation|C0035126|Reperfusion Injury|inpo|inpo|||ISA|C0022116|Ischemia|dsyn|dsyn||
+
+38395179_.tx.9 The accuracy of the expected targets was confirmed using real-time quantitative polymerase chain reaction (RT-qPCR).
+
+
+38395179_.tx.10 The renal protective effect of NLSC was assessed using an immortalized human kidney tubular (HK-2) cell culture produced by oxygen-glucose deprivation (OGD).
+
+38395179_.tx.10|relation|C0022646|Kidney|bpoc|bpoc|||PART_OF|C0020114|Human|grup,humn|humn||
+
+38395179_.tx.11 Network pharmacology analysis identified 199 common targets from NLSC and AKI.
+
+
+38395179_.tx.12 STAT3, HSP90AA1, TP53, MAPK3, JUN, JAK2, and VEGFA could serve as potential drug targets and were associated with JAK2/STAT3 signaling pathway, PI3K-Akt signaling pathway, etc.
+
+38395179_.tx.12|relation|||gngm,aapp|gngm|3320|HSP90AA1|INTERACTS_WITH|C0013227|Pharmaceutical Preparations|phsu|phsu||
+38395179_.tx.12|relation|C0079419|TP53 gene|gngm,aapp|gngm|7157|TP53|INTERACTS_WITH|C0013227|Pharmaceutical Preparations|phsu|phsu||
+38395179_.tx.12|relation|C0085296|Proto-Oncogene Proteins c-jun|aapp,gngm,bacs|gngm|3725|JUN|INTERACTS_WITH|C0013227|Pharmaceutical Preparations|phsu|phsu||
+38395179_.tx.12|relation|C0169661|Janus kinase 2|aapp,gngm,enzy|gngm|3717|JAK2|INTERACTS_WITH|C0013227|Pharmaceutical Preparations|phsu|phsu||
+38395179_.tx.12|relation|C1336934|VEGF gene|gngm,aapp|gngm|7422|VEGFA|INTERACTS_WITH|C0013227|Pharmaceutical Preparations|phsu|phsu||
+38395179_.tx.12|relation|C1366765|MAPK3 gene|gngm,aapp|gngm|5595|MAPK3|INTERACTS_WITH|C0013227|Pharmaceutical Preparations|phsu|phsu||
+38395179_.tx.12|relation|C1367307|STAT3 gene|gngm,aapp|gngm|6774|STAT3|INTERACTS_WITH|C0013227|Pharmaceutical Preparations|phsu|phsu||
+
+38395179_.tx.13 The molecular docking analysis confirmed significant docking activity between the main bioactive components and core targets, including STAT3 and KIM-1.
+
+
+38395179_.tx.14 Moreover, the AKI mice model was successfully established and NLSC pretreatment could improve renal function and alleviate renal damage.
+
+
+38395179_.tx.15 NLSC could alleviate renal inflammation and tubular cell apoptosis, and decrease the expression of STAT3 and KIM-1 in AKI mice.
+
+38395179_.tx.15|relation|C0022646|Kidney|bpoc|bpoc|||LOCATION_OF|C0021368|Inflammation|patf|patf||
+38395179_.tx.15|relation|C0162638|Apoptosis|celf|celf|||PROCESS_OF|C0026809|Mus|mamm|mamm||
+38395179_.tx.15|relation|C0552639|TUBULAR CELLS|cell|cell|||LOCATION_OF|C0162638|Apoptosis|celf|celf||
+
+38395179_.tx.16 In vitro, both NLSC and drug-containing serum may protect HK-2Ã¢ Â¯cells by inhibiting STAT3 signaling, especially STAT3-mediated apoptosis and KIM-1 expression.NLSC could alleviate renal inflammation and apoptosis, exerting its beneficial effects by targeting the STAT3/KIM-1 pathway.
+
+38395179_.tx.16|relation|C0022646|Kidney|bpoc|bpoc|||LOCATION_OF|C0021368|Inflammation|patf|patf||
+38395179_.tx.16|relation|C1367307|STAT3 gene|gngm,aapp|gngm|6774|STAT3|AFFECTS|C0162638|Apoptosis|celf|celf||
+
+38395179_.tx.17 NLSC is a promising candidate for AKI treatment and provides a new idea and method for the treatment of AKI.
+
+
+38395179_.tx.18 Copyright ÃÂ© 2024.
+
+
+38395179_.tx.19 Published by Elsevier B.V.
+
+
+
+----- Citation 38394846_ -----
+38394846_.tx.1 PMID: 38394846_ Molecular mechanisms underlying the regulation of tumour suppressor genes in lung cancer.
+
+38394846_.tx.1|relation|C0079427|Tumor Suppressor Genes|gngm,aapp|gngm|||ASSOCIATED_WITH|C0242379|Malignant neoplasm of lung|neop|neop||
+
+38394846_.tx.2 Tumour suppressor genes play a cardinal role in the development of a large array of human cancers, including lung cancer, which is one of the most frequently diagnosed cancers worldwide.
+
+38394846_.tx.2|relation|C0006826|Malignant Neoplasms|neop|neop|||PROCESS_OF|C0020114|Human|grup,humn|humn||
+38394846_.tx.2|relation|C0242379|Malignant neoplasm of lung|neop|neop|||ISA|C0006826|Malignant Neoplasms|neop|neop||
+
+38394846_.tx.3 Therefore, extensive studies have been committed to deciphering the underlying mechanisms of alterations of tumour suppressor genes in governing tumourigenesis, as well as resistance to cancer therapies.
+
+38394846_.tx.3|relation|C0079427|Tumor Suppressor Genes|gngm,aapp|gngm|||AFFECTS|C1326912|Tumorigenesis|neop|neop||
+
+38394846_.tx.4 In spite of the encouraging clinical outcomes demonstrated by lung cancer patients on initial treatment, the subsequent unresponsiveness to first-line treatments manifested by virtually all the patients is inherently a contentious issue.
+
+38394846_.tx.4|relation|C0242379|Malignant neoplasm of lung|neop|neop|||PROCESS_OF|C0030705|Patients|podg,humn|humn||
+
+38394846_.tx.5 In light of the aforementioned concerns, this review compiles the current knowledge on the molecular mechanisms of some of the tumour suppressor genes implicated in lung cancer that are either frequently mutated and/or are located on the chromosomal arms having high LOH rates (1p, 3p, 9p, 10q, 13q, and 17p).
+
+38394846_.tx.5|relation|C0079427|Tumor Suppressor Genes|gngm,aapp|gngm|||AFFECTS|C0242379|Malignant neoplasm of lung|neop|neop||
+
+38394846_.tx.6 Our study identifies specific genomic loci prone to LOH, revealing a recurrent pattern in lung cancer cases.
+
+
+38394846_.tx.7 These loci, including 3p14.2 (FHIT), 9p21.3 (p16INK4a), 10q23 (PTEN), 17p13 (TP53), exhibit a higher susceptibility to LOH due to environmental factors such as exposure to DNA-damaging agents (carcinogens in cigarette smoke) and genetic factors such as chromosomal instability, genetic mutations, DNA replication errors, and genetic predisposition.
+
+38394846_.tx.7|relation|C0007090|Carcinogens|hops|hops|||COEXISTS_WITH|C0239059|Cigarette smoke|hops|hops||
+
+38394846_.tx.8 Furthermore, this review summarizes the current treatment landscape and advancements for lung cancers, including the challenges and endeavours to overcome it.
+
+
+38394846_.tx.9 This review envisages inspired researchers to embark on a journey of discovery to add to the list of what was known in hopes of prompting the development of effective therapeutic strategies for lung cancer.
+
+
+38394846_.tx.10 Copyright ÃÂ© 2024 The Authors.
+
+
+38394846_.tx.11 Published by Elsevier Masson SAS..
+
+
+38394846_.tx.12 All rights reserved.
+
+
+
+----- Citation 38394494_ -----
+38394494_.tx.1 PMID: 38394494_ Efficacy of immune checkpoint inhibitors in SMARCA4-deficient and TP53 mutant undifferentiated lung cancer.
+
+
+38394494_.tx.2 The present study was conducted to characterize the clinicopathologic characteristics, immunohistochemical staining results, and immune checkpoint inhibitors (ICIs) efficacy in patients with SMARCA4-deficient/TP53 mutant lung cancer.
+
+38394494_.tx.2|relation|C0242379|Malignant neoplasm of lung|neop|neop|||PROCESS_OF|C0030705|Patients|podg,humn|humn||
+
+38394494_.tx.3 Patients diagnosed with advanced or metastatic undifferentiated lung cancer harboring SMARCA4-deficient and TP53 mutations, however, without targetable sensitive mutations were retrieved from the electronic medical record system.
+
+38394494_.tx.3|relation|C0030705|Patients|podg,humn|humn|||LOCATION_OF|C1335843|SMARCA4 gene|gngm,aapp|aapp|6597|SMARCA4
+
+38394494_.tx.4 Descriptive statistics were used to describe the baseline characteristics and clinical features including age, gender, eastern cooperative oncology group performance status, disease stage, smoking status, chief complaint, site of the primary mass, tumor size, gross type, symptoms, local invasion, and metastatic sizes.
+
+
+38394494_.tx.5 Immunological markers and potential drive genes were detected by immunohistochemical staining and next generation sequencing.
+
+
+38394494_.tx.6 Efficacy and safety profile of ICIs in included patients was evaluated with progression-free survival and overall survival.
+
+
+38394494_.tx.7 Between January 2019 and September 2022, there were 4 patients included within the inclusion criteria in the present study.
+
+
+38394494_.tx.8 Biomarkers including CK, CK7, and integrase interactor 1 were detected positive, however, other immunological markers including CK20, CD56, P63, P40, NapsinA, TTF-1, CgA, Syn, BRG1, or PD-L1 were detected negative among them.
+
+
+38394494_.tx.9 Results of next generation sequencing panel were failed to discover any targetable sensitive mutations.
+
+
+38394494_.tx.10 A total of 4 mutation types of TP53, including p.C141Y, p.S240G, p.E339X (terminator acquired), and p.L130F detected for the patients, respectively.
+
+
+38394494_.tx.11 Microsatellite stability status, as well as low tumor mutation burden was identified among all the patients.
+
+
+38394494_.tx.12 Median progression-free survival for ICIs as first line treatment and median overall survival were 3.25 months (range from 1.3 to 6.8 months), and 6.0 months (range from 2.7 to 9.6 months), respectively.
+
+
+38394494_.tx.13 Our results indicated that advanced lung cancer patients harboring co-occurring SMARCA4-deficient/TP53 mutations might respond to ICIs treatment, though within negative programmed cell death-ligand 1 expression or low tumor mutation burden.
+
+38394494_.tx.13|relation|C0877373|Advanced cancer|neop|neop|||PROCESS_OF|C0030705|Patients|podg,humn|humn||
+
+38394494_.tx.14 However, hyperprogressive disease by ICIs may also happen for such patients.
+
+
+38394494_.tx.15 The mutation types of TP53 might play a role during the exposure of ICIs, however, need further identification in basic experiments.
+
+
+38394494_.tx.16 Copyright ÃÂ© 2024 the Author(s).
+
+
+38394494_.tx.17 Published by Wolters Kluwer Health, Inc.
+
+
+
+----- Citation 38393464_ -----
+38393464_.tx.1 PMID: 38393464_ Utility of UV Signature Mutations in the Diagnostic Assessment of Metastatic Head and Neck Carcinomas of Unknown Primary.
+
+38393464_.tx.1|relation|C0018670|Head|blor|blor|||LOCATION_OF|C0431080|Diagnostic assessment|diap|diap||
+
+38393464_.tx.2 Metastatic carcinoma of unknown primary origin to the head and neck lymph nodes (HNCUP) engenders unique diagnostic considerations.
+
+
+38393464_.tx.3 In many cases, the detection of a high-risk human papillomavirus (HR-HPV) unearths an occult oropharyngeal squamous cell carcinoma (SCC).
+
+
+38393464_.tx.4 In metastatic HR-HPV-independent carcinomas, other primary sites should be considered, including cutaneous malignancies that can mimic HR-HPV-associated SCC.
+
+
+38393464_.tx.5 In this context, ultraviolet (UV) signature mutations, defined as Ã¢ Â¥Ã¢  60% CÃ¢  T substitutions with Ã¢ Â¥Ã¢  5% CCÃ¢  TT substitutions at dipyrimidine sites, identified in tumors arising on sun exposed areas, are an attractive and underused tool in the setting of metastatic HNCUP.A retrospective review of institutional records focused on cases of HR-HPV negative HNCUP was conducted.
+
+
+38393464_.tx.6 All cases were subjected to next generation sequencing analysis to assess UV signature mutations.We identified 14Ã HR-HPV negative metastatic HNCUP to either the cervical or parotid gland lymph nodes, of which, 11 (11/14, 79%) had UV signature mutations, including 4 (4/10, 40%) p16 positive cases.
+
+
+38393464_.tx.7 All UV signature mutation positive cases had at least one significant TP53 mutation and greater than 20 unique gene mutations.The management of metastatic cutaneous carcinomas significantly differs from other HNCUP especially metastatic HR-HPV-associated SCC; therefore, the observation of a high percentage of CÃ¢  T with CC Ã¢  TT substitutions should be routinely incorporated in next generation sequencing reports of HNCUP.
+
+
+38393464_.tx.8 UV mutational signatures testing is a robust diagnostic tool that can be utilized in daily clinical practice.ÃÂ© 2024.
+
+
+38393464_.tx.9 The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature.
+
+
+
+----- Citation 38392565_PMC10890329 -----
+38392565_PMC10890329.tx.1 PMID: 38392565_PMC10890329 The Role of SPEN Mutations as Predictive Biomarkers for Immunotherapy Response in Colorectal Cancer: Insights from a Retrospective Cohort Analysis.
+
+38392565_PMC10890329.tx.1|relation|||gngm,aapp|gngm|23013|SPEN|ASSOCIATED_WITH|C0009402|Carcinoma of the Large Intestine|neop|neop||
+
+38392565_PMC10890329.tx.2 Colorectal cancer (CRC) is the leading cause of cancer deaths, and treatment, especially in the metastatic stage, is challenging.
+
+
+38392565_PMC10890329.tx.3 Immune checkpoint inhibitors (ICIs) have revolutionized CRC treatment, but response varies, emphasizing the need for effective biomarkers.
+
+38392565_PMC10890329.tx.3|relation|C0243077|inhibitors|chvf|chvf|||TREATS|C0009402|Carcinoma of the Large Intestine|neop|neop||
+
+38392565_PMC10890329.tx.4 This study explores SPEN mutations as potential biomarkers.
+
+
+38392565_PMC10890329.tx.5 Using data from the Memorial Sloan Kettering Cancer Center (MSKCC) and The Cancer Genome Atlas (TCGA)-Colorectal Cancer, this research applied bioinformatics tools and statistical analysis to SPEN (Split Ends) mutant and wild-type CRC patients treated with ICIs.
+
+38392565_PMC10890329.tx.5|relation|C0009402|Carcinoma of the Large Intestine|neop|neop|||PROCESS_OF|C0030705|Patients|podg,humn|humn||
+38392565_PMC10890329.tx.5|relation|C0243077|inhibitors|chvf|chvf|||TREATS|C0009402|Carcinoma of the Large Intestine|neop|neop||
+
+38392565_PMC10890329.tx.6 Focus areas included mutation rates, immune cell infiltration, and DNA damage response pathways.The SPEN mutation rate was found to be 13.8% (15/109 patients) in the MSKCC cohort and 6.65% (35/526 patients) in the TCGA cohort.
+
+38392565_PMC10890329.tx.6|relation|C1516369|Cellular Infiltration|celf|celf|||PROCESS_OF|C0599755|cohort|popg,humn|humn||
+
+38392565_PMC10890329.tx.7 Our findings indicate that CRC patients with SPEN mutations had a longer median overall survival (OS) than the wild-type group.
+
+38392565_PMC10890329.tx.7|relation|||gngm,aapp|gngm|23013|SPEN|ASSOCIATED_WITH(INFER)|C0009402|Carcinoma of the Large Intestine|neop|neop||
+38392565_PMC10890329.tx.7|relation|||gngm,aapp|gngm|23013|SPEN|PART_OF|C0030705|Patients|podg,humn|humn||
+38392565_PMC10890329.tx.7|relation|C0009402|Carcinoma of the Large Intestine|neop|neop|||PROCESS_OF|C0030705|Patients|podg,humn|humn||
+
+38392565_PMC10890329.tx.8 These patients also had higher tumor mutational burden (TMB), microsatellite instability (MSI) scores, and programmed death-ligand 1 (PD-L1) expression.
+
+
+38392565_PMC10890329.tx.9 SPEN mutants also exhibited increased DNA damage response (DDR) pathway mutations and a greater presence of activated immune cells, like M1 macrophages and CD8+ T cells, while wild-type patients had more resting/suppressive immune cells.
+
+38392565_PMC10890329.tx.9|relation|||gngm,aapp|aapp|23013|SPEN|STIMULATES|C0007634|Cells|cell|cell||
+38392565_PMC10890329.tx.9|relation|||gngm,aapp|aapp|23013|SPEN|STIMULATES|C0024432|macrophage|cell|cell||
+38392565_PMC10890329.tx.9|relation|||gngm,aapp|aapp|23013|SPEN|STIMULATES|C0039194|T-Lymphocyte|cell|cell||
+
+38392565_PMC10890329.tx.10 Furthermore, distinct mutation patterns, notably with TP53, indicated a unique molecular subtype in SPEN-mutated CRC.We conclude that SPEN mutations might improve ICI efficacy in CRC due to increased immunogenicity and an inflammatory tumor microenvironment.
+
+38392565_PMC10890329.tx.10|relation|||gngm,aapp|gngm|23013|SPEN|ASSOCIATED_WITH|C0009402|Carcinoma of the Large Intestine|neop|neop||
+38392565_PMC10890329.tx.10|relation|C0079419|TP53 gene|gngm,aapp|gngm|7157|TP53|ASSOCIATED_WITH|C0009402|Carcinoma of the Large Intestine|neop|neop||
+
+38392565_PMC10890329.tx.11 SPEN mutations could be predictive biomarkers for ICI responsiveness, underscoring their value in personalized therapy and highlighting the importance of genomic data in clinical decisions.
+
+
+38392565_PMC10890329.tx.12 This research lays the groundwork for future precision oncology studies.
+
+
+
+----- Citation 38392212_PMC10887868 -----
+38392212_PMC10887868.tx.1 PMID: 38392212_PMC10887868 Exploring the Functions of Mutant p53 through TP53 Knockout in HaCaT Keratinocytes.
+
+38392212_PMC10887868.tx.1|relation|C0022567|keratinocyte|cell|cell|||LOCATION_OF|C1522225|Knock-out|emod|emod||
+
+38392212_PMC10887868.tx.2 Approximately 50% of tumors carry mutations in TP53; thus, evaluation of the features of mutant p53 is crucial to understanding the mechanisms underlying cell transformation and tumor progression.
+
+38392212_PMC10887868.tx.2|relation|C0026882|Mutation|genf|genf|||PROCESS_OF|C0079419|TP53 gene|gngm,aapp|gngm|7157|TP53
+
+38392212_PMC10887868.tx.3 HaCaT keratinocytes represent a valuable model for research in this area since they are considered normal, although they bear two gain-of-function mutations in TP53.
+
+38392212_PMC10887868.tx.3|relation|C0035168|research|resa|resa|||USES|C0026336|Study models|inpr,resd|resd||
+38392212_PMC10887868.tx.3|relation|C0205146|Area|spco|spco|||LOCATION_OF|C0022567|keratinocyte|cell|cell||
+
+38392212_PMC10887868.tx.4 In the present study, transcriptomic and proteomic profiling were employed to examine the functions of mutant p53 and to investigate the impact of its complete abolishment.
+
+
+38392212_PMC10887868.tx.5 Our findings indicate that CRISPR-mediated TP53 knockout results in significant changes at the transcriptomic and proteomic levels.
+
+
+38392212_PMC10887868.tx.6 The knockout of TP53 significantly increased the migration rate and altered the expression of genes associated with invasion, migration, and EMT but suppressed the epidermal differentiation program.
+
+38392212_PMC10887868.tx.6|relation|C0079419|TP53 gene|gngm,aapp|gngm|7157|TP53|INTERACTS_WITH|C0017337|Genes|gngm,aapp|gngm||
+
+38392212_PMC10887868.tx.7 These outcomes suggest that, despite being dysfunctional, p53 may still possess oncosuppressive functions.
+
+
+38392212_PMC10887868.tx.8 However, despite being considered normal keratinocytes, HaCaT cells exhibit oncogenic properties.
+
+
+
+----- Citation 38392199_PMC10887746 -----
+38392199_PMC10887746.tx.1 PMID: 38392199_PMC10887746 Targeted Sequencing in Gastric Cancer: Association with Tumor Molecular Characteristics and FLOT Therapy Effectiveness.
+
+
+38392199_PMC10887746.tx.2 Heterogeneity of gastric cancer (GC) is the main trigger of the disease's relapse.
+
+
+38392199_PMC10887746.tx.3 The aim of this study was to investigate the connections between targeted genes, cancer clinical features, and the effectiveness of FLOT chemotherapy.
+
+
+38392199_PMC10887746.tx.4 Twenty-one patients with gastric cancers (GCs) were included in this study.
+
+38392199_PMC10887746.tx.4|relation|C0024623|Malignant neoplasm of stomach|neop|neop|||PROCESS_OF|C0030705|Patients|podg,humn|humn||
+
+38392199_PMC10887746.tx.5 Tumor-targeted sequencing was conducted, and real-time PCR was used to assess the expression of molecular markers in tumors.
+
+38392199_PMC10887746.tx.5|relation|C0032520|Polymerase Chain Reaction|lbpr,mbrt|lbpr|||DIAGNOSES|C0027651|Neoplasm|neop|neop||
+
+38392199_PMC10887746.tx.6 Seven patients with stabilization had mutations that were related to their response to therapy and were relevant to the tumor phenotype.
+
+38392199_PMC10887746.tx.6|relation|C0026882|Mutation|genf|genf|||PROCESS_OF|C0030705|Patients|podg,humn|humn||
+
+38392199_PMC10887746.tx.7 Two patients had two mutations.
+
+
+38392199_PMC10887746.tx.8 The number of patients with TP53 mutations increased in HER2-positive tumor status.
+
+38392199_PMC10887746.tx.8|relation|C0079419|TP53 gene|gngm,aapp|gngm|7157|TP53|PART_OF|C0030705|Patients|podg,humn|humn||
+
+38392199_PMC10887746.tx.9 PD-L1-positive cancers had mutations in KRAS, TP53, PIK3CA, PTEN, and ERBB, which resulted in an increase in PD-1 expression.
+
+38392199_PMC10887746.tx.9|relation|C0006826|Malignant Neoplasms|neop|neop|||MANIFESTATION_OF|C0025344|Menstruation|orgf|orgf||
+38392199_PMC10887746.tx.9|relation|C0026882|Mutation|genf|genf|||PROCESS_OF|C0022457|K-ras Oncogene|gngm,aapp|gngm|3845|KRAS
+38392199_PMC10887746.tx.9|relation|C0026882|Mutation|genf|genf|||PROCESS_OF|C0079419|TP53 gene|gngm,aapp|gngm|7157|TP53
+38392199_PMC10887746.tx.9|relation|C0026882|Mutation|genf|genf|||PROCESS_OF|C0694888|PTEN gene|gngm,aapp|gngm|5728|PTEN
+38392199_PMC10887746.tx.9|relation|C0026882|Mutation|genf|genf|||PROCESS_OF|C1335212|PIK3CA gene|gngm,aapp|gngm|5290|PIK3CA
+38392199_PMC10887746.tx.9|relation|C0026882|Mutation|genf|genf|||PROCESS_OF|C1414313|EGFR gene|gngm,aapp|gngm|1956|EGFR
+
+38392199_PMC10887746.tx.10 TP53 mutation and PTEN mutation are associated with changes in factors associated with neoangiogenesis.
+
+38392199_PMC10887746.tx.10|relation|C0079419|TP53 gene|gngm,aapp|gngm|7157|TP53|ASSOCIATED_WITH|C0027686|Pathologic Neovascularization|patf|patf||
+38392199_PMC10887746.tx.10|relation|C0694888|PTEN gene|gngm,aapp|gngm|5728|PTEN|ASSOCIATED_WITH|C0027686|Pathologic Neovascularization|patf|patf||
+
+38392199_PMC10887746.tx.11 In concusion, patients who did not have aggressive growth markers that were verified by molecular features had the best response to treatment, including complete morphologic regression.
+
+
+
+----- Citation 38391958_PMC10886918 -----
+38391958_PMC10886918.tx.1 PMID: 38391958_PMC10886918 Complexity of the Genetic Background of Oncogenesis in Ovarian Cancer-Genetic Instability and Clinical Implications.
+
+
+38391958_PMC10886918.tx.2 Ovarian cancer is a leading cause of death among women with gynecological cancers, and is often diagnosed at advanced stages, leading to poor outcomes.
+
+38391958_PMC10886918.tx.2|relation|C0006826|Malignant Neoplasms|neop|neop|||PROCESS_OF|C0043210|Woman|popg,humn|humn||
+38391958_PMC10886918.tx.2|relation|C0011065|Cessation of life|orgf|orgf|||PROCESS_OF|C0043210|Woman|popg,humn|humn||
+38391958_PMC10886918.tx.2|relation|C0029925|Ovarian Carcinoma|neop|neop|||ISA|C0006826|Malignant Neoplasms|neop|neop||
+38391958_PMC10886918.tx.2|relation|C0029925|Ovarian Carcinoma|neop|neop|||PROCESS_OF(SPEC)|C0043210|Woman|popg,humn|humn||
+
+38391958_PMC10886918.tx.3 This review explores genetic aspects of high-grade serous, endometrioid, and clear-cell ovarian carcinomas, emphasizing personalized treatment approaches.
+
+38391958_PMC10886918.tx.3|relation|C0014180|Endometrium|bpoc|bpoc|||LOCATION_OF|C0017399|genetic aspects|biof|biof||
+38391958_PMC10886918.tx.3|relation|C0205065|Ovaro-|bpoc|bpoc|||LOCATION_OF|C0017399|genetic aspects|biof|biof||
+38391958_PMC10886918.tx.3|relation|C0205065|Ovaro-|bpoc|bpoc|||LOCATION_OF|C0206681|Adenocarcinoma, Clear Cell|neop|neop||
+
+38391958_PMC10886918.tx.4 Specific mutations such as TP53 in high-grade serous and BRAF/KRAS in low-grade serous carcinomas highlight the need for tailored therapies.
+
+38391958_PMC10886918.tx.4|relation|C0022457|K-ras Oncogene|gngm,aapp|gngm|3845|KRAS|ASSOCIATED_WITH|C0206701|Cystadenocarcinoma, Serous|neop|neop||
+
+38391958_PMC10886918.tx.5 Varying mutation prevalence across subtypes, including BRCA1/2, PTEN, PIK3CA, CTNNB1, and c-myc amplification, offers potential therapeutic targets.
+
+
+38391958_PMC10886918.tx.6 This review underscores TP53's pivotal role and advocates p53 immunohistochemical staining for mutational analysis.
+
+
+38391958_PMC10886918.tx.7 BRCA1/2 mutations' significance as genetic risk factors and their relevance in PARP inhibitor therapy are discussed, emphasizing the importance of genetic testing.
+
+
+38391958_PMC10886918.tx.8 This review also addresses the paradoxical better prognosis linked to KRAS and BRAF mutations in ovarian cancer.
+
+38391958_PMC10886918.tx.8|relation|C0022457|K-ras Oncogene|gngm,aapp|gngm|3845|KRAS|ASSOCIATED_WITH|C0029925|Ovarian Carcinoma|neop|neop||
+38391958_PMC10886918.tx.8|relation|C0812241|BRAF gene|gngm,aapp|gngm|673|BRAF|ASSOCIATED_WITH|C0029925|Ovarian Carcinoma|neop|neop||
+
+38391958_PMC10886918.tx.9 ARID1A, PIK3CA, and PTEN alterations in platinum resistance contribute to the genetic landscape.
+
+38391958_PMC10886918.tx.9|relation|||gngm,aapp|gngm|8289|ARID1A|INTERACTS_WITH|C0032207|Platinum|elii|elii||
+38391958_PMC10886918.tx.9|relation|C0694888|PTEN gene|gngm,aapp|gngm|5728|PTEN|INTERACTS_WITH|C0032207|Platinum|elii|elii||
+38391958_PMC10886918.tx.9|relation|C1335212|PIK3CA gene|gngm,aapp|gngm|5290|PIK3CA|INTERACTS_WITH|C0032207|Platinum|elii|elii||
+
+38391958_PMC10886918.tx.10 Therapeutic strategies, like restoring WT p53 function and exploring PI3K/AKT/mTOR inhibitors, are considered.
+
+
+38391958_PMC10886918.tx.11 The evolving understanding of genetic factors in ovarian carcinomas supports tailored therapeutic approaches based on individual tumor genetic profiles.
+
+
+38391958_PMC10886918.tx.12 Ongoing research shows promise for advancing personalized treatments and refining genetic testing in neoplastic diseases, including ovarian cancer.
+
+38391958_PMC10886918.tx.12|relation|C0679560|Genetic screening method|lbpr|lbpr|||DIAGNOSES|C0027651|Neoplasm|neop|neop||
+
+38391958_PMC10886918.tx.13 Clinical genetic screening tests can identify women at increased risk, guiding predictive cancer risk-reducing surgery.
+
+
+
+----- Citation 38391914_PMC10886524 -----
+38391914_PMC10886524.tx.1 PMID: 38391914_PMC10886524 Molecular Characterization and Subtyping of Breast Cancer Cell Lines Provide Novel Insights into Cancer Relevant Genes.
+
+
+38391914_PMC10886524.tx.2 Continuous cell lines are important and commonly used in vitro models in breast cancer (BC) research.
+
+
+38391914_PMC10886524.tx.3 Selection of the appropriate model cell line is crucial and requires consideration of their molecular characteristics.
+
+
+38391914_PMC10886524.tx.4 To characterize BC cell line models in depth, we profiled a panel of 29 authenticated and publicly available BC cell lines by mRNA-sequencing, mutation analysis, and immunoblotting.
+
+
+38391914_PMC10886524.tx.5 Gene expression profiles separated BC cell lines in two major clusters that represent basal-like (mainly triple-negative BC) and luminal BC subtypes, respectively.
+
+
+38391914_PMC10886524.tx.6 HER2-positive cell lines were located within the luminal cluster.
+
+
+38391914_PMC10886524.tx.7 Mutation calling highlighted the frequent aberration of TP53 and BRCA2 in BC cell lines, which, therefore, share relevant characteristics with primary BC.
+
+
+38391914_PMC10886524.tx.8 Furthermore, we showed that the data can be used to find novel, potential oncogenic fusion transcripts, e.g., FGFR2::CRYBG1 and RTN4IP1::CRYBG1 in cell line MFM-223, and to elucidate the regulatory circuit of IRX genes and KLF15 as novel candidate tumor suppressor genes in BC.
+
+38391914_PMC10886524.tx.8|relation|C0079427|Tumor Suppressor Genes|gngm,aapp|gngm|||ASSOCIATED_WITH|C0006142|Malignant neoplasm of breast|neop|neop||
+
+38391914_PMC10886524.tx.9 Our data indicated that KLF15 was activated by IRX1 and inhibited by IRX3.
+
+38391914_PMC10886524.tx.9|relation|||gngm,aapp|gngm|79192|IRX1|STIMULATES|||gngm,aapp|gngm|28999|KLF15
+
+38391914_PMC10886524.tx.10 Moreover, KLF15 inhibited IRX1 in cell line HCC-1599.
+
+38391914_PMC10886524.tx.10|relation|||gngm,aapp|gngm|28999|KLF15|INHIBITS|||gngm,aapp|gngm|79192|IRX1
+
+38391914_PMC10886524.tx.11 Each BC cell line carries unique molecular features.
+
+
+38391914_PMC10886524.tx.12 Therefore, the molecular characteristics of BC cell lines described here might serve as a valuable resource to improve the selection of appropriate models for BC research.
+
+
+
+----- Citation 38388646_ -----
+38388646_.tx.1 PMID: 38388646_ Phase 2 study using low dose cytarabine for adult patients with newly diagnosed Langerhans cell histiocytosis.
+
+38388646_.tx.1|relation|C0010711|Cytarabine|hops,nnon,phsu|phsu|||TREATS|C0030705|Patients|podg,humn|podg||
+38388646_.tx.1|relation|C0010711|Cytarabine|hops,nnon,phsu|phsu|||TREATS(INFER)|C0019621|Histiocytosis, Langerhans-Cell|dsyn|dsyn||
+38388646_.tx.1|relation|C0019621|Histiocytosis, Langerhans-Cell|dsyn|dsyn|||PROCESS_OF|C0030705|Patients|podg,humn|humn||
+
+38388646_.tx.2 Langerhans cell histiocytosis (LCH) lacks a standardized first-line therapy.
+
+
+38388646_.tx.3 This single-center, phase 2 prospective study (NCT04121819) enrolled 61 newly diagnosed adult LCH patients with multisystem or multifocal single system disease from October 2019 to June 2022.
+
+38388646_.tx.3|relation|C0019621|Histiocytosis, Langerhans-Cell|dsyn|dsyn|||PROCESS_OF|C0030705|Patients|podg,humn|humn||
+
+38388646_.tx.4 Subcutaneous cytarabine (100Ã¢  mg/m2 for 5 days) was administered in 35-day cycles for 12 total cycles.
+
+
+38388646_.tx.5 The primary endpoint was event-free survival (EFS).
+
+
+38388646_.tx.6 The median age was 33 years (range 18-66).
+
+
+38388646_.tx.7 Twelve patients (19.7%) had liver involvement, of which 2 also had spleen involvement.
+
+
+38388646_.tx.8 Among 43 patients undergoing next-generation sequencing, BRAF alterations (44.2%) were most frequent, followed by TP53 (16.3%), MAP2K1 (14.0%) and IDH2 (11.6%).
+
+
+38388646_.tx.9 MAPK pathway alterations occurred in 28 patients (65.1%).
+
+38388646_.tx.9|relation|C0030705|Patients|podg,humn|humn|||LOCATION_OF|C0752312|Mitogen-Activated Protein Kinases|aapp,gngm,enzy|aapp||
+
+38388646_.tx.10 The overall response rate was 93.4%, with 20 (32.7%) achieving complete response and 37 (60.7%) partial response.
+
+
+38388646_.tx.11 After a median 30 months follow-up, 21 (34.4%) relapsed without deaths.
+
+
+38388646_.tx.12 Estimated 3-year OS and EFS were 100.0% and 58.5%, respectively.
+
+
+38388646_.tx.13 Multivariate analysis identified Ã¢ Â¥3 involved organs (PÃ¢  =Ã¢  0.007; HR 3.937, 95% CI: 1.456-9.804) and baseline lung involvement (PÃ¢  =Ã¢  0.028; HR 2.976, 95% CI: 1.126-7.874) as poor prognostic factors for EFS.
+
+
+38388646_.tx.14 The most common grade 3-4 toxicities were neutropenia (27.9%), thrombocytopenia (1.6%), and nausea (1.6%).
+
+
+38388646_.tx.15 In conclusion, cytarabine monotherapy is an effective and safe regimen for newly diagnosed adults, while baseline lung or Ã¢ Â¥3 involved organs confers poor prognosis.ÃÂ© 2024.
+
+38388646_.tx.15|relation|C0040808|Treatment Protocols|resa,topp|topp|||TREATS|C0001675|Adult|aggp,humn|aggp||
+
+38388646_.tx.16 The Author(s), under exclusive licence to Springer Nature Limited.
+
+
+
+----- Citation 38388477_PMC10883990 -----
+38388477_PMC10883990.tx.1 PMID: 38388477_PMC10883990 CDK4/6i-treated HR+/HER2- breast cancer tumors show higher ESR1 mutation prevalence and more altered genomic landscape.
+
+38388477_PMC10883990.tx.1|relation|C1458155|Mammary Neoplasms|neop|neop|||ISA|C0006826|Malignant Neoplasms|neop|neop||
+
+38388477_PMC10883990.tx.2 As CDK4/6 inhibitor (CDK4/6i) approval changed treatment strategies for patients with hormone receptor-positive HER2-negative (HR+/HER2-) breast cancer (BC), understanding how exposure to CDK4/6i affects the tumor genomic landscape is critical for precision oncology.
+
+
+38388477_PMC10883990.tx.3 Using real-world data (RWD) with tumor genomic profiling from 5910 patients with metastatic HR+/HER2- BC, we investigated the evolution of alteration prevalence in commonly mutated genes across patient journeys.
+
+38388477_PMC10883990.tx.3|relation|C0278488|Breast cancer metastatic|neop|neop|||PROCESS_OF|C0030705|Patients|podg,humn|humn||
+
+38388477_PMC10883990.tx.4 We found that ESR1 is more often altered in tumors exposed to at least 1Ã¢  year of adjuvant endocrine therapy, contrasting with TP53 alterations.
+
+38388477_PMC10883990.tx.4|relation|C1414461|ESR1 gene|gngm,aapp|gngm|2099|ESR1|AFFECTS|C0027651|Neoplasm|neop|neop||
+
+38388477_PMC10883990.tx.5 We observed a similar trend after first-line treatments in the advanced setting, but strikingly exposure to aromatase inhibitors (AI) combined with CDK4/6i led to significantly higher ESR1 alteration prevalence compared to AI alone, independent of treatment duration.
+
+38388477_PMC10883990.tx.5|relation|C0249880|Cyclin-Dependent Kinase Inhibitor 2A|aapp,gngm,bacs|aapp|1019|CDK4|compared_with|C0593802|Aromatase Inhibitors|phsu|phsu||
+38388477_PMC10883990.tx.5|relation|C0593802|Aromatase Inhibitors|phsu|phsu|||COEXISTS_WITH|C0249880|Cyclin-Dependent Kinase Inhibitor 2A|aapp,gngm,bacs|aapp|1019|CDK4
+
+38388477_PMC10883990.tx.6 Further, CDK4/6i exposure was associated with higher occurrence of concomitant alterations in multiple oncogenic pathways.
+
+38388477_PMC10883990.tx.6|relation|C0249880|Cyclin-Dependent Kinase Inhibitor 2A|aapp,gngm,bacs|aapp|1019|CDK4|INTERACTS_WITH|C0007090|Carcinogens|hops|hops||
+
+38388477_PMC10883990.tx.7 Differences based on CDK4/6i exposure were confirmed in samples collected after 2L and validated in samples from the acelERA BC clinical trial.
+
+
+38388477_PMC10883990.tx.8 In conclusion, our work uncovers opportunities for further treatment personalization and stresses the need for effective combination treatments to address the altered tumor genomic landscape following AI+CDK4/6i exposure.
+
+
+38388477_PMC10883990.tx.9 Further, we demonstrated the potential of RWD for refining patient treatment strategy and guiding clinical trial design.ÃÂ© 2024.
+
+
+38388477_PMC10883990.tx.10 The Author(s).
+
+
+
