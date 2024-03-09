@@ -1,0 +1,278 @@
+<div id="container">
+  <div id="header">
+    <p-toolbar>
+      <div class="p-toolbar-group-start" style="display: flex;">
+        <span (click)="returnHome()" class="material-symbols-outlined" style="margin: 10px;">
+          home
+        </span>
+        <span (click)="returnAboutUS()" class="material-symbols-outlined" style="margin: 10px;">
+          groups
+        </span>
+      </div>
+      <div class="p-toolbar-group-center">
+      </div>
+      <div class="p-toolbar-group-end">
+        <span (click)="reload()" class="material-symbols-outlined" style="margin: 10px;">
+          logout
+        </span>
+      </div>
+    </p-toolbar>
+  </div>
+  <div id="content">
+    <div id="home" *ngIf="home == true">
+      <p-splitter [panelSizes]="panelSize" [style]="{ height: '100%',overflowy:'auto'}" styleClass="mb-5">
+        <ng-template pTemplate>
+          <div *ngIf="enableForm" style="position: relative;height: 100%;width: 100%;">
+            <p-card id="formContent" [style]="{ width: '100%',height:'100%'}">
+              <ng-template pTemplate="header" style="align-items: center;">
+                <div
+                  style="display: flex; justify-content: center;font-family: sans-serif;font-weight: bold;font-size: xx-large;">
+                  <span>TATTVA (Text Analysis Transformation To Visual Abstract)</span>
+                </div>
+              </ng-template>
+              <form id="form" (ngSubmit)="onSubmit()">
+                <!-- <div class="card flex justify-content-center">
+                  <div id="fileUploadForm" style="display: flex;height: max-content;width: 100%;flex-direction: column;">
+                    <input type="file" (change)="onFileSelected($event)" accept=".pdf,.xml" #fileInput
+                      style="display: none;" />
+                    <p-button [style]="{ width: '100%', position:'relative'}" (click)="fileInput.click()" label="FileUpload"
+                      icon="pi pi-upload" [disabled]="value.trim().length > 0"></p-button>
+                    <small style="margin-top: 10px;color: #FF0000;font-weight: bold;" *ngIf="selectedFileError==true">Please
+                      select a PDF or XML file.</small>
+                  </div>
+                </div>
+                <div style="margin: 10px;" class="card flex justify-content-center">
+                  <span style="position: relative;;top: 50%;left: 50%;display: block;">OR</span>
+                </div> -->
+                <div class="card flex justify-content-center">
+                  <input name="value" type="text" pInputText [(ngModel)]="value"
+                    [style]="{ width: '100%', position:'relative'}"
+                    placeholder="Search Keyword or PMCID to build Graphical Abstract" />
+                </div>
+              </form>
+              <ng-template pTemplate="footer">
+                <p-button
+                  [style]="{height: 'max-content',width: 'max-content',position: 'relative',top: '50%',left: '50%',transform: 'translate(-50%,-50%)'}"
+                  label="Submit" type="submit" icon="pi pi-check" (onClick)="onSubmit()"
+                  [disabled]="value.trim().length==0"></p-button>
+              </ng-template>
+            </p-card>
+          </div>
+          <div *ngIf="!enableForm"
+            style="position: relative;height: 100%;width: 100%;display: flex;flex-direction: column;padding: 10px;">
+            <div style="margin: 5px;height: max-content;width: 100%;margin-bottom: 25px;">
+              <div *ngIf="progressSpinner1==true"
+                style="height: max-content;width: max-content;position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);">
+                <p-progressSpinner styleClass="w-4rem h-4rem" strokeWidth="8" fill="var(--surface-ground)"
+                  animationDuration=".5s"></p-progressSpinner>
+              </div>
+              <div *ngIf="progressSpinner1==false" class="card flex justify-content-center">
+                <p-dropdown [options]="pmid" [(ngModel)]="selectedPmid" optionLabel="pmid"
+                  (onChange)="textRender(selectedPmid.pmid)" [style]="{width:'100%'}"></p-dropdown>
+              </div>
+            </div>
+            <div
+              style="overflow-y: scroll;height: 90%;width: 100%;position: absolute;top: 55%;left: 50%;transform: translate(-50%,-50%);padding: 10px;">
+              <h1 style="width: 100%;position: relative;text-align: center;">{{renderTextData.title}}</h1>
+              <p>{{renderTextData.summary}}</p>
+            </div>
+          </div>
+        </ng-template>
+        <ng-template pTemplate style="overflow: auto;">
+          <!-- Chart -->
+          <div *ngIf="(enableGraph == true || enableRealtions == true || enableEntities == true)"
+            id="chartTableContainer">
+            <div *ngIf="progressSpinner==true"
+              style="height: max-content;width: max-content;position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);">
+              <p-progressSpinner styleClass="w-4rem h-4rem" strokeWidth="8" fill="var(--surface-ground)"
+                animationDuration=".5s"></p-progressSpinner>
+            </div>
+            <div id="navForChartTable">
+              <span pTooltip="Graph" tooltipPosition="bottom" class="material-symbols-outlined" style="margin: 10px;"
+                (click)="renderGraph()">data_exploration</span>
+              <span pTooltip="Relations" tooltipPosition="bottom" class="material-symbols-outlined"
+                style="margin: 10px;" (click)="renderRelations()">grid_on</span>
+              <span pTooltip="Entities" tooltipPosition="bottom" class="material-symbols-outlined" style="margin: 10px;"
+                (click)="renderEntities()">grid_on</span>
+            </div>
+            <div id="chartTable" *ngIf="progressSpinner==false">
+              <!-- <div *ngIf="enableGraph==true" style="display: flex;flex-direction: row;width: 100%;grid-gap: 20px;">
+                <div style="display: flex;width: 85%;">
+                  <input type="text" pInputText [(ngModel)]="queryText" [style]="{ width: '100%', position:'relative'}" placeholder="Enter Query Text"/>
+                </div>
+                <div style="display: flex;width: max-content;padding: 10px;">
+                  <p-button
+                [style]="{height: 'max-content',width: 'max-content'}"
+                label="Submit" (onClick)="queryResult()" icon="pi pi-check"></p-button>
+                </div>
+                <div style="display: flex;width: max-content;">
+                  <p-button
+                [style]="{height: 'max-content',width: 'max-content', position:'relative', top:'50%',left:'50%',transform:'translate(-50%,-50%)'}"
+                label="Revert" (onClick)="renderChart(this.data)" icon="pi pi-check"></p-button>
+                </div>
+              </div>
+              <div *ngIf="enableGraph==true" id="chartDiv">
+              </div> -->
+              <!-- <span (click)="downloadGraph()" class="material-symbols-outlined" style="margin: 10px;">
+                download
+              </span> -->
+              <object data="http://localhost:5000/graph_data/" *ngIf="enableGraph==true" id="chartDiv" type="text/html"></object>
+              <!-- <iframe src="http://localhost:5000/graph_data/" *ngIf="enableGraph==true" id="chartDiv"></iframe> -->
+              <div *ngIf="progressSpinner2==true"
+                style="height: max-content;width: max-content;position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);">
+                <p-progressSpinner styleClass="w-4rem h-4rem" strokeWidth="8" fill="var(--surface-ground)"
+                  animationDuration=".5s"></p-progressSpinner>
+              </div>
+              <div *ngIf="enableRealtions==true && progressSpinner2==false">
+                <div class="card" *ngIf="this.relationData.length!=0">
+                  <p-table #rt [value]="relationData" [paginator]="true" [rows]="rows" [showCurrentPageReport]="true"
+                    [tableStyle]="{ 'min-width': '50rem' }"
+                    currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries"
+                    (onPage)="pageChange($event)" [rowsPerPageOptions]="[100, 250, 500,1000,2000,5000,10000]"
+                    [globalFilterFields]="['Realtion ID', 'ENTITY 1', 'TYPE 1', 'RELATION', 'ENTITY 2', 'TYPE 2', 'Realtion Text']">
+                    <ng-template pTemplate="caption">
+                      <div class="flex" style="display: flex;">
+                        <button pButton label="Clear" class="p-button-outlined" icon="pi pi-filter-slash"
+                          (click)="clear(rt)" style="margin-right: 10px;"></button>
+                        <span class="p-input-icon-left ml-auto">
+                          <i class="pi pi-search"></i>
+                          <input #inputField pInputText type="text"
+                            (input)="rt.filterGlobal(inputField.value, 'contains')" placeholder="Search keyword" />
+                        </span>
+                        <span class="example-spacer"></span>
+                        <button type="button" pButton pRipple icon="pi pi-file-excel" (click)="exportRelationExcel()"
+                          class="p-button-success mr-2" pTooltip="Export as XLS" tooltipPosition="bottom"
+                          style="margin-right:10px"></button>
+                      </div>
+                    </ng-template>
+                    <ng-template pTemplate="header">
+                      <tr>
+                        <th style="width:25%">Relation ID</th>
+                        <th style="width:25%">Entity 1</th>
+                        <th style="width:25%">Type 1</th>
+                        <th style="width:25%">Relation</th>
+                        <th style="width:25%">Entity 2</th>
+                        <th style="width:25%">Type 2</th>
+                        <th style="width:25%">Relation Text</th>
+                      </tr>
+                    </ng-template>
+                    <ng-template pTemplate="body" let-relation>
+                      <tr>
+                        <td>{{ relation.PMID}}</td>
+                        <td>{{ relation.ENTITY_1 }}</td>
+                        <td>{{ relation.TYPE_1 }}</td>
+                        <td>{{ relation.RELATION }}</td>
+                        <td>{{ relation.ENTITY_2 }}</td>
+                        <td>{{ relation.TYPE_2 }}</td>
+                        <td>{{ relation.EVIDENCE_TEXT }}</td>
+                      </tr>
+                    </ng-template>
+                  </p-table>
+                </div>
+                <p *ngIf="this.relationData.length==0 && progressSpinner2==false"
+                  style="font-weight: bold;color:#ff3d32;margin: 10px;">
+                  No Relation Data Found
+                </p>
+              </div>
+              <div *ngIf="progressSpinner3==true"
+                style="height: max-content;width: max-content;position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);">
+                <p-progressSpinner styleClass="w-4rem h-4rem" strokeWidth="8" fill="var(--surface-ground)"
+                  animationDuration=".5s"></p-progressSpinner>
+              </div>
+              <div *ngIf="enableEntities==true && progressSpinner3==false">
+                <div class="card" *ngIf="this.entityData.length!=0">
+                  <p-table #et [value]="entityData" [paginator]="true" [rows]="rows" [showCurrentPageReport]="true"
+                    [tableStyle]="{ 'min-width': '50rem' }"
+                    currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries"
+                    (onPage)="pageChange($event)" [rowsPerPageOptions]="[100, 250, 500,1000,2000,5000,10000]"
+                    [globalFilterFields]="['Text', 'Category', 'Type', 'Score']">
+                    <ng-template pTemplate="caption">
+                      <div class="flex" style="display: flex;">
+                        <button pButton label="Clear" class="p-button-outlined" icon="pi pi-filter-slash"
+                          (click)="clear(et)" style="margin-right: 10px;"></button>
+                        <span class="p-input-icon-left ml-auto">
+                          <i class="pi pi-search"></i>
+                          <input #inputField pInputText type="text"
+                            (input)="et.filterGlobal(inputField.value, 'contains')" placeholder="Search keyword" />
+                        </span>
+                        <span class="example-spacer"></span>
+                        <button type="button" pButton pRipple icon="pi pi-file-excel" (click)="exportEntityExcel()"
+                          class="p-button-success mr-2" pTooltip="Export as XLS" tooltipPosition="bottom"
+                          style="margin-right:10px"></button>
+                      </div>
+                    </ng-template>
+                    <ng-template pTemplate="header">
+                      <tr>
+                        <!-- <th style="width:25%">Id</th> -->
+                        <th style="width:25%">Text</th>
+                        <th style="width:25%">Category</th>
+                        <th style="width:25%">Type</th>
+                        <th style="width:25%">Score</th>
+                      </tr>
+                    </ng-template>
+                    <ng-template pTemplate="body" let-entity>
+                      <tr>
+                        <!-- <td>{{ entity.Id}}</td> -->
+                        <td>{{ entity.Text }}</td>
+                        <td>{{ entity.Category }}</td>
+                        <td>{{ entity.Type }}</td>
+                        <td>{{ entity.Score }}</td>
+                      </tr>
+                    </ng-template>
+                  </p-table>
+                </div>
+                <p *ngIf="this.entityData.length==0 && progressSpinner3==false"
+                  style="font-weight: bold;color:#ff3d32;margin: 10px;">
+                  No Entity Data Found
+                </p>
+              </div>
+            </div>
+          </div>
+        </ng-template>
+      </p-splitter>
+    </div>
+    <div id="aboutUs" *ngIf="aboutUS==true" style="display: block;">
+      <h1 class="roboto-bold" style="height: max-content;width: 100%;text-align: center;">TATTVA (Text Analysis Transformation To Visual Abstract)</h1>
+      <p style="height: max-content;width: 98%;padding-right: 1%;padding-left: 1%;">Introducing Graphical Abstract
+        Creator: Unleash the Power of AI and PubMed for Visualizing Knowledge Graphs</p>
+      <p style="height: max-content;width: 98%;padding-right: 1%;padding-left: 1%;">In today's digital age, where
+        information overload is a common challenge, navigating through vast amounts of data to distill key insights can
+        be daunting. Enter Graphical Abstract Creator, a groundbreaking web application designed to revolutionize the
+        way researchers, scientists, and academics visualize knowledge graphs and table entities sourced from the
+        expansive PubMed database.</p>
+      <p style="height: max-content;width: 98%;padding-right: 1%;padding-left: 1%;">At the heart of Graphical Abstract
+        Creator lies a sophisticated blend of cutting-edge technologies, including advanced artificial intelligence (AI)
+        algorithms and the comprehensive PubMed database. Leveraging the power of AI, the platform seamlessly extracts
+        pertinent information from PubMed's extensive repository of scholarly articles, enabling users to effortlessly
+        generate rich and informative visual representations of complex data.</p>
+      <p style="height: max-content;width: 98%;padding-right: 1%;padding-left: 1%;"><b>Knowledge Graph Generation</b>:
+        Graphical Abstract Creator harnesses the capabilities of AI to analyze and extract valuable insights from a vast
+        array of scientific literature available on PubMed. Through sophisticated natural language processing (NLP)
+        techniques, the platform identifies key entities, concepts, and relationships, culminating in the creation of
+        comprehensive knowledge graphs.</p>
+      <p style="height: max-content;width: 98%;padding-right: 1%;padding-left: 1%;"><b>Table Entity Recognition</b>: By
+        employing state-of-the-art machine learning models, Graphical Abstract Creator intelligently scans through
+        research articles to identify and extract relevant tabular data. This feature enables users to seamlessly
+        incorporate structured information into their graphical abstracts, enhancing clarity and comprehension.</p>
+      <p style="height: max-content;width: 98%;padding-right: 1%;padding-left: 1%;"><b>Relationship Visualization</b>:
+        Understanding the intricate connections between various entities and concepts is paramount in research and
+        academia. Graphical Abstract Creator facilitates this process by visualizing relationships within knowledge
+        graphs, providing users with valuable insights into the underlying connections and dependencies.</p>
+      <p style="height: max-content;width: 98%;padding-right: 1%;padding-left: 1%;"><b>User-Friendly Interface</b>:
+        Designed with usability in mind, Graphical Abstract Creator boasts an intuitive and user-friendly interface,
+        ensuring accessibility for users of all skill levels. Whether you're a seasoned researcher or a novice in the
+        field, the platform's streamlined workflow makes it easy to create visually compelling abstracts in minutes.</p>
+      <p style="height: max-content;width: 98%;padding-right: 1%;padding-left: 1%;"><b>Customization Options</b>:
+        Recognizing the diverse needs of researchers, Graphical Abstract Creator offers a range of customization options
+        to tailor visualizations according to specific preferences and requirements. From choosing layout styles to
+        color schemes, users have the flexibility to personalize their graphical abstracts to suit their unique needs.
+      </p>
+      <p style="height: max-content;width: 98%;padding-right: 1%;padding-left: 1%;">With Graphical Abstract Creator, the
+        process of distilling complex research findings into visually engaging representations has never been easier.
+        Whether you're looking to communicate your findings effectively, collaborate with peers, or simply enhance your
+        understanding of complex concepts, this innovative web application empowers users to unlock the full potential
+        of their data with ease and efficiency. Say goodbye to information overload and hello to the future of knowledge
+        visualization with Graphical Abstract Creator.</p>
+    </div>
+  </div>
+</div>
